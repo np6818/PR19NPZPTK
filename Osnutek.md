@@ -20,8 +20,9 @@ Ugotoviti bomo poskušali kaj je glavni razlog za samomore, kje se najbolj pogos
 Iz podatkov bomo poskusili izluščiti naslednje informacije:
  - pogostost samomorov glede na GDP
  - število samomorov glede na starostno skupino
- - število glede na geenracijo
+ - število glede na generacijo
  - ugotoviti glavne razloge za samomor
+ - verjetnost samomora glede na starost, lokacijo, GDP
  - kako preprečiti samomore
 
 ##### Vir in oblika podatkov:
