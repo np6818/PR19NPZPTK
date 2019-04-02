@@ -1,4 +1,4 @@
-### Podatkovno rudarjenje, koda za vmesno poročilo o opravljenem delu, 01. 04. 2019
+### Podatkovno rudarjenje, vmesno poročilo o opravljenem delu, 01. 04. 2019
 
 # Priprava podatkov in osnovna vizualizacija
 
@@ -8,11 +8,11 @@
 
 **Matevž Kušar**
 
-V tem poročilu smo s pomočjo pythona, statistike in vizualizacije poiskusili odgovoriti na čim več vprašanj, ki smo si jih zastavili pri izbiri projekta.
+V tem poročilu smo s pomočjo pythona, statistike in vizualizacije poskusili odgovoriti na čim več vprašanj, ki smo si jih zastavili pri izbiri projekta.
 
 ## Podatki
 
-Kratek opis podatkov je bil podan že pri osnutku projekta, tu pa bi si najprej na hitro pogledali kaj točno dani podatki vsebujejo. Link do podatkov(https://www.kaggle.com/russellyates88/suicide-rates-overview-1985-to-2016).
+Kratek opis podatkov je bil podan že pri osnutku projekta, tu pa bi si najprej na hitro pogledali kaj točno dani podatki vsebujejo. Povezava do podatkov(https://www.kaggle.com/russellyates88/suicide-rates-overview-1985-to-2016).
 
 Vse podatke ki smo jih dobili s spletne strani Kaggle hranimo v datoteki "master.csv".
 
@@ -40,23 +40,27 @@ S preprosto funkcijo smo prebrali podatke iz datoteke "master.csv", v pandas dat
 
 Ker je tako velika količina podatkov prevelika da bi iz nje lahko kar tako ugotovili določene zanimive lastnosti, smo se odločili da bomo najprej naredili nekaj grafov da dobimo občutek s čem imamo opravka, in da predstavimo nekatere bolj zanimive podatke.
 
-Spodaj je seznam desetih držav z najvišjo stopnjo samomorov, pri čemer smo uporabili atribut suicides_per_100k, saj le ta ni odvisen od števila prebivalcev, ki jih ima država.
+Spodaj je seznam desetih držav z najvišjo stopnjo samomorov, pri čemer smo uporabili atribut suicides_per_100k, saj le ta ni odvisen od števila prebivalcev, ki jih ima država. 
 
 ![Alt text](images/seznam.png?raw=true "Države z največ samomori")
+
+Ugotovili smo, da je slovenija kar visoko na tej lestvici, ter tudi, da je veliko držav na vrhu lestvice severnjaških držav.
 
 Spodaj je število vseh samomorov v podatkovni zbirki, razdeljenih po spolu, kar nam pove, da je stopnja samomorov pri moških več kot trikrat višja kot pri ženskah.
 
 ![Alt text](images/sex_difference.png?raw=true "Razlika med spoloma")
 
-Zanimalo nas je ali je BDP povezan s stopnjo samomorov, zato smo za vsako državo izračunali povprečni BDP in poveprečno stopnjo samomorov, s pomočjo česar smo naredili spodnji graf. Iz grafa je razvidno, da revnejše države nimajo nujno tudi višje stopnje samomorov.
+Zanimalo nas je ali je BDP povezan s stopnjo samomorov, zato smo za vsako državo izračunali povprečni BDP in poveprečno stopnjo samomorov, s pomočjo česar smo naredili spodnji graf. 
 
 ![Alt text](images/GPD_and_suicide_rate.png?raw=true "BDP in samomori")
 
-Naslednji graf prikazuje število samomorov v vsaki starostni skupini, iz njega pa je razvidno, da je samomor veliko več pri starejših ljudeh, kar smo tudi pričakovali. Na žalost pa se samomori očitno dogajajo tudi pri zelo mladih, a je le teh znatno manj.
+Iz grafa je razvidno, da revnejše države nimajo nujno tudi višje stopnje samomorov, kot bi marsikdo pričakoval.
+
+Naslednji graf prikazuje število samomorov v vsaki starostni skupini, iz njega pa je razvidno, da je samomorov veliko več pri starejših ljudeh, kar smo tudi pričakovali. Na žalost pa se samomori očitno dogajajo tudi pri zelo mladih, a je le teh znatno manj.
 
 ![Alt text](images/starostne_skupine.png?raw=true "Starostne skupine")
 
-Število samomorov v posameznih letih na logaritmičnem grafu.
+Ker nas je zanimalo kako se število samomorov spreminja s časom smo naredili spodnji graf. Število samomorov v posameznih letih na logaritmičnem grafu.
 
 ![Alt text](images/po_letih.png?raw=true "število samomorov po letih")
 
