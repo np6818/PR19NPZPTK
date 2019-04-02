@@ -63,6 +63,7 @@ Naslednji graf prikazuje število samomorov v vsaki starostni skupini, iz njega 
 
 ![Alt text](images/starostne_skupine.png?raw=true "Starostne skupine")
 
+
 Ker nas je zanimalo kako se število samomorov spreminja s časom smo naredili spodnji graf. Število samomorov v posameznih letih na logaritmičnem grafu.
 
 ![Alt text](images/po_letih.png?raw=true "število samomorov po letih")
