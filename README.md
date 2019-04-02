@@ -44,15 +44,18 @@ Spodaj je seznam desetih držav z najvišjo stopnjo samomorov, pri čemer smo up
 
 ![Alt text](images/seznam.png?raw=true "Države z največ samomori")
 
+
 Ugotovili smo, da je slovenija kar visoko na tej lestvici, ter tudi, da je veliko držav na vrhu lestvice severnjaških držav.
 
 Spodaj je število vseh samomorov v podatkovni zbirki, razdeljenih po spolu, kar nam pove, da je stopnja samomorov pri moških več kot trikrat višja kot pri ženskah.
 
 ![Alt text](images/sex_difference.png?raw=true "Razlika med spoloma")
 
+
 Zanimalo nas je ali je BDP povezan s stopnjo samomorov, zato smo za vsako državo izračunali povprečni BDP in poveprečno stopnjo samomorov, s pomočjo česar smo naredili spodnji graf. 
 
 ![Alt text](images/GPD_and_suicide_rate.png?raw=true "BDP in samomori")
+
 
 Iz grafa je razvidno, da revnejše države nimajo nujno tudi višje stopnje samomorov, kot bi marsikdo pričakoval.
 
@@ -63,6 +66,7 @@ Naslednji graf prikazuje število samomorov v vsaki starostni skupini, iz njega 
 Ker nas je zanimalo kako se število samomorov spreminja s časom smo naredili spodnji graf. Število samomorov v posameznih letih na logaritmičnem grafu.
 
 ![Alt text](images/po_letih.png?raw=true "število samomorov po letih")
+
 
 Tu je nekaj zanimivih stvari. Hitro naraščanje samomorov do leta 1995, še posebaj leta 1988 in 1995, potem pa hiter in enakomeren padec. Najbolj presenetljivo pa je leto 2016, kjer je razlika s prejšnjim letom daleč največja.
 
